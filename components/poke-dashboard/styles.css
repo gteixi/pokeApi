@@ -1,0 +1,41 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-image: url("./../assets/dashboard-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #faff39;
+    background-image: linear-gradient(159deg, #faff39 0%, #ff4141 100%);
+    margin: 100px;
+    padding: 20px;
+    border-radius: 80px;
+}
+
+a.null {
+    text-decoration: none;
+    color: rgb(206, 40, 40);
+    width: 10px;
+    height: 10px;
+    background-color: bisque;
+    padding: 2px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.divForList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemons {
+    margin: 12px;
+}

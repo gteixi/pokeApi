@@ -1,0 +1,21 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-image: url("./../assets/dashboard-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #faff39;
+    background-image: linear-gradient(159deg, #faff39 0%, #ff4141 100%);
+    margin: 100px;
+    padding: 20px;
+    border-radius: 80px;
+    height: 358px;
+}
