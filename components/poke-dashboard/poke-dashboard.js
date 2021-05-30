@@ -19,7 +19,7 @@ function divListPokemons() {
     list.results.slice(init, max).forEach((pokemon) => {
       const listImportantPokemons = createElements('li', ulListPokemons, 'pokemons', null);
       const AnchorImportantPokemons = createElements('a', listImportantPokemons, null, `${pokemon.name}`);
-      AnchorImportantPokemons.setAttribute('href', `http://127.0.0.1:5500/components/poke-details/?name=${pokemon.name}`);
+      AnchorImportantPokemons.setAttribute('href', `http://127.0.0.1:5500/pokemons/components/poke-details/?name=${pokemon.name}`);
       buttonNext.onclick = () => nextPokemons(ulListPokemons);
       buttonPrev.onclick = () => prevPokemons(ulListPokemons);
     });
